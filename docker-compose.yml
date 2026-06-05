@@ -1,0 +1,7 @@
+services:
+  uav-mission-agent:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: bash -lc "pip install -r requirements.txt && python -m src.main"

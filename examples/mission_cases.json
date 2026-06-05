@@ -1,0 +1,21 @@
+[
+  {
+    "type": "disaster_rescue",
+    "location": "城市A区域",
+    "priority": "high",
+    "objects": ["受困人员", "医疗物资"],
+    "constraints": ["恶劣天气", "复杂地形"],
+    "num_drones": 3,
+    "max_distance": 50.0,
+    "time_limit": 60
+  },
+  {
+    "type": "delivery",
+    "location": "园区B",
+    "priority": "medium",
+    "objects": ["包裹A", "包裹B"],
+    "constraints": ["时间限制"],
+    "num_drones": 2,
+    "time_limit": 30
+  }
+]
